@@ -1,0 +1,21 @@
+body {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+#counter {
+    font-size: 3em;
+    color: #fff;
+    font-family: Helvetica;
+}
