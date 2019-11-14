@@ -1,5 +1,5 @@
 body {
-    background-color: teal;
+    background-color: rgb(4, 143, 131);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,14 +8,34 @@ body {
 }
 
 button {
-    background-color: #fff;
+    background-color: rgb(233, 144, 72);
     border-radius: 0.5em;
     padding: 1em;
     font-size: 1.3em;
+    margin-left: 0.3em;
+    color: #fff;
+    border: none;
 }
 
-#counter {
+input {
+    font-size: 1.3em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+
+#books {
+    margin-top: 1em;
+    padding: 0.3em;
+    font-size: 1.3em;
+    border-radius: 0.3em;
+    font-family: Helvetica;
+    background-color: #fff;
+}
+
+#id {
     font-size: 3em;
     color: #fff;
     font-family: Helvetica;
 }
+
+
